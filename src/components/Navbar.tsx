@@ -113,16 +113,25 @@ export default function Navbar() {
       <AnimatePresence>
         {isOpen && (
           <motion.ul
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="md:hidden overflow-hidden border-t border-gray-200 dark:border-slate-800 bg-white dark:bg-[#0b1121] transition-colors"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="md:hidden border-t border-gray-200 dark:border-slate-800 bg-white dark:bg-[#0b1121] transition-colors"
           >
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
-                  onClick={() => setIsOpen(false)}
+                  onClick={() => {
+                    setIsOpen(false);
+                    const el = document.querySelector(link.href);
+                    if (el) {
+                      setTimeout(() => {
+                        el.scrollIntoView({ behavior: "smooth" });
+                      }, 100);
+                    }
+                  }}
                   className="block px-6 py-3 text-sm text-gray-600 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-white"
                 >
                   {link.label}
