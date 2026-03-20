@@ -29,13 +29,12 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 text-lg md:text-xl text-gray-600 dark:text-slate-400">
-            Computer Engineering Student &bull; AWS Cloud Enthusiast &bull; ML
-            Enthusiast
+            Computer Engineering Student &bull; AWS Cloud Enthusiast
           </p>
 
           <p className="mt-3 text-gray-500 dark:text-slate-500 max-w-lg">
-            Passionate about AWS cloud computing, building intelligent ML
-            applications, and developing scalable systems.
+            Passionate about AWS cloud computing, building scalable web
+            applications, and developing reliable systems.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

@@ -62,15 +62,6 @@ export default function Projects() {
               <span className="text-gray-500 dark:text-slate-400 group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors">
                 GitHub &rarr;
               </span>
-              <span
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.open(project.demo, "_blank");
-                }}
-                className="text-gray-500 dark:text-slate-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-pointer"
-              >
-                Live Demo &rarr;
-              </span>
             </div>
           </motion.a>
         ))}

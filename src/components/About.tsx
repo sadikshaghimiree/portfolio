@@ -18,10 +18,9 @@ export default function About() {
           <div className="space-y-4 text-gray-600 dark:text-slate-400 leading-relaxed">
             <p>
               I am a Computer Engineering student with a deep interest in
-              AWS cloud computing, machine learning, and scalable system
-              design. I enjoy building intelligent applications that sit at
-              the intersection of software engineering and artificial
-              intelligence.
+              AWS cloud computing, web development, and scalable system
+              design. I enjoy building practical applications that deliver
+              real-world value.
             </p>
             <p>
               I am particularly drawn to research opportunities and
@@ -35,7 +34,7 @@ export default function About() {
               { label: "Projects", value: "4+", href: "#projects" },
               { label: "Technologies", value: "10+", href: "#skills" },
               { label: "Focus", value: "AWS" },
-              { label: "Interest", value: "ML / AI", href: undefined as string | undefined },
+              { label: "Interest", value: "Web Development", href: undefined as string | undefined },
             ].map((item) => {
               const content = (
                 <>

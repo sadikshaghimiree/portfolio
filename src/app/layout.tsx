@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Sadiksha | Developer Portfolio",
   description:
-    "Computer Engineering student passionate about backend development, machine learning, and building intelligent systems.",
+    "Computer Engineering student focused on backend development, scalable web applications, and cloud-based solutions.",
 };
 
 export default function RootLayout({

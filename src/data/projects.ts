@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     title: "Eccommerce Website with Dynamic Pricing",
     description:
-      "Machine learning based system that dynamically adjusts product prices based on demand, competition, and user ratings in real time.",
+      "Data-driven system that dynamically adjusts product prices based on demand, competition, and user ratings in real time.",
     tech: ["Python", "Django", "Scikit-learn", "PostgreSQL"],
     github: "https://github.com/sadikshaghimiree/minprjct",
     demo: "#",
@@ -18,10 +18,10 @@ export const projects: Project[] = [
     demo: "#",
   },
   {
-    title: "Task Management API",
+    title: "Personal Expense Tracker",
     description:
-      "RESTful API built with FastAPI featuring JWT authentication, role-based access control, and real-time WebSocket notifications.",
-    tech: ["FastAPI", "PostgreSQL", "Docker", "Redis"],
+      "Developed a full-stack expense tracking web application with secure user authentication, implemented expense categorization and monthly summaries, built RESTful APIs using Django REST Framework integrated with a React frontend, and enabled real-time balance tracking for financial management.",
+    tech: ["Django", "Django REST Framework", "React.js"],
     github: "#",
     demo: "#",
   },
